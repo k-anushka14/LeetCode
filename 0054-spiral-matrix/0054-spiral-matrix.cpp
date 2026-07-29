@@ -1,34 +1,46 @@
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& mat) {
-        int n=mat.size();
-        int m=mat[0].size();
-        int left=0,right=m-1;
-        int top=0,bottom=n-1;
-        vector<int>ans;
-        while(top<=bottom && left<=right){
-            //right
-            for(int i=left;i<=right;i++){
-                ans.push_back(mat[top][i]);
+        int n = mat.size();
+        int m = mat[0].size();
+
+        int srow = 0, erow = n - 1;
+        int scol = 0, ecol = m - 1;
+
+        vector<int> ans;
+
+        while (srow <= erow && scol <= ecol) {
+
+            // Top
+            for (int j = scol; j <= ecol; j++) {
+                ans.push_back(mat[srow][j]);
             }
-            top++;
-            for(int i=top;i<=bottom;i++){
-                ans.push_back(mat[i][right]);
+
+            // Right
+            for (int i = srow + 1; i <= erow; i++) {
+                ans.push_back(mat[i][ecol]);
             }
-            right--;
-            if(top<=bottom){
-                for(int i=right;i>=left;i--){
-                    ans.push_back(mat[bottom][i]);
-                }
-                bottom--;
+
+            // Bottom
+            for (int j = ecol - 1; j >= scol; j--) {
+                if (srow == erow)
+                    break;
+                ans.push_back(mat[erow][j]);
             }
-            if(left<=right){
-                for(int i=bottom;i>=top;i--){
-                    ans.push_back(mat[i][left]);
-                }
-                left++;
+
+            // Left
+            for (int i = erow - 1; i >= srow + 1; i--) {
+                if (scol == ecol)
+                    break;
+                ans.push_back(mat[i][scol]);
             }
+
+            srow++;
+            erow--;
+            scol++;
+            ecol--;
         }
+
         return ans;
     }
 };
