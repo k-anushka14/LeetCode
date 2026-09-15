@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1470-shuffle-the-array](https://github.com/k-anushka14/LeetCode/tree/master/1470-shuffle-the-array) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/k-anushka14/LeetCode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1929-concatenation-of-array](https://github.com/k-anushka14/LeetCode/tree/master/1929-concatenation-of-array) |
+| [2491-divide-players-into-teams-of-equal-skill](https://github.com/k-anushka14/LeetCode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Matrix
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/k-anushka14/LeetCode/tree/master/0001-two-sum) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/k-anushka14/LeetCode/tree/master/1679-max-number-of-k-sum-pairs) |
+| [2491-divide-players-into-teams-of-equal-skill](https://github.com/k-anushka14/LeetCode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Two Pointers
 |  |
 | ------- |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/k-anushka14/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/k-anushka14/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/k-anushka14/LeetCode/tree/master/1679-max-number-of-k-sum-pairs) |
+| [2491-divide-players-into-teams-of-equal-skill](https://github.com/k-anushka14/LeetCode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Binary Search
 |  |
 | ------- |
@@ -47,4 +50,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1679-max-number-of-k-sum-pairs](https://github.com/k-anushka14/LeetCode/tree/master/1679-max-number-of-k-sum-pairs) |
+| [2491-divide-players-into-teams-of-equal-skill](https://github.com/k-anushka14/LeetCode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 <!---LeetCode Topics End-->
